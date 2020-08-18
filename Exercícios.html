@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício</title>
+    <style type="text/css">
+        * {
+            background-color: black;
+            color: white;
+        }
+
+        main {
+            width: 99%;
+            border: 2px solid white;
+            height: 130vh;
+        }
+
+        section {
+            margin-top: -21px;
+        }
+
+        h2 + [paragrafo="dist"] ~ h3 {
+            color: aqua;
+            text-shadow: 0px 2px 5px aqua;
+        }
+
+        section .divprincipal h1 {
+            margin-bottom: 0px;
+            color: red;
+            line-height: 80px;
+            text-shadow: 0px 2px 5px red;
+        }
+
+        section div div h2 {
+            color: coral;
+            line-height: 5px;
+            text-shadow: 0px 2px 5px coral;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <section align="center">
+            <div class="divprincipal">
+                <h1>Divisão Principal</h1>
+                <div>
+                    <h2>Divisão 1</h2>
+                    <p paragrafo="dist"><h3>Paragrafo p1.1</h3></p>
+                    <div>
+                        <h2>Divisão 2</h2>
+                        <p paragrafo="dist"><h3>Paragrafo p1.2</h3></p>
+                    </div>
+                </div>
+            </div>
+            <div class="divprincipal">
+                <h1>Divisão Principal 2</h1>
+                <div>
+                    <h2>Divisão 2.1</h2>
+                    <p paragrafo="dist"><h3>Paragrafo p2.1</h3></p>
+                    <div>
+                        <h2>Divisão 2.2</h2>
+                        <p paragrafo="dist"><h3>Paragrafo p2.2</h3></p>
+                    </div>
+                </div>
+            </div>
+            <div class="divprincipal">
+                <h1>Divisião Principal 3</h1>
+                <div>
+                    <h2>Divisão 3.1</h2>
+                    <p paragrafo="dist"><h3>Paragrafo p3.1</h3></p>
+                    <div>
+                        <h2>Divisão 3.2</h2>
+                        <p paragrafo="dist"><h3>Paragrafo p3.2</h3></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
