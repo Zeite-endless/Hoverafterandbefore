@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+            text-shadow: 0px 4px 10px white;
+        }
+
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        header {
+            width: 100%;
+            background-color: rgb(236, 204, 204);
+            border-bottom: 2px solid black ;
+        }
+
+        header:hover{
+            background-color: rgb(226, 159, 159);
+        }
+
+        #login{
+            background-image: linear-gradient(120deg, rgb(105, 96, 96), rgb(104, 8, 8), rgb(199, 178, 178) );
+            border: 2px solid black;
+            font-weight: 900;
+            margin-left: 300px;
+            margin-right: 300px;
+            padding: 15px;
+            line-height: 40px;
+            border-radius: 12px;
+            box-shadow: 2px 4px 5px black;
+        }
+
+        #login:hover{
+            box-shadow: 2px 4px 10px black;
+            background-image: linear-gradient(120deg, rgb(80, 53, 53), rrgb(175, 44, 44) rgb(199, 178, 178) );
+        }
+
+        input{
+            border: 2px solid maroon;
+            box-shadow: 0px 2px 2px white;
+            border-radius: 4px;
+        }
+
+        input:hover{
+            background-image: linear-gradient(120deg, rgb(216, 122, 122), rgb(187, 153, 153), rgb(199, 178, 178) );
+        }
+
+        button{
+            border: 2px solid maroon;
+            box-shadow: 0px 2px 2px white;
+            border-radius: 4px;
+            width: 60px;
+            background-color: rgb(231, 154, 154);
+            cursor: pointer;
+        }
+
+        button:hover{
+            background-color: rgb(255, 235, 235);
+        }
+
+        form {
+            width: 100%;
+            background-image: linear-gradient(120deg, rgb(105, 96, 96), rgb(104, 8, 8), rgb(199, 178, 178) );
+            height: 90%;
+            padding-top: 200px;
+        }
+
+        footer {
+            width: 100%;
+            background-color: rgb(92, 12, 12);
+            border-top: 2px solid black;
+        }
+
+        footer:hover{
+            background-color: rgb(204, 134, 134);
+        }
+    </style>
+</head>
+
+<body align="center">
+    <header>
+        <h1>Seja bem vindo</h1>
+    </header>
+
+    <form>
+        <div id="login">
+            <div id="corpo">
+                <label for="nome">login: </label>
+                <input type="text" id="nome">
+            </div>
+            <div>
+                <label for="senha">senha: </label>
+                <input type="password" id="senha">
+            </div>
+            <div id="enter" align="center">
+                <button href="">Entrar</button>
+            </div>
+        </div>
+    </form>
+    <footer>
+        <p>Desenvolvido por Faculdade iv2</p>
+    </footer>
+</body>
+
+</html>
